@@ -16,4 +16,5 @@ Let graph $A$ have vertices $(1, 2, 3, 4)$ and let graph $B$ have vertices $(a, 
 Now if we have a bijection where $f: V_1 \rightarrow V_2$\
 we can have $f(1) = a, f(2) = b, f(3) = c$, but it is not possible for $f(4)$ to map to one vertex in graph $B$ that is not already mapped to another vertex.\
 In this case, we do not actually have a bijection, because not all elements in graph $A$ can map to exactly one element in graph $B$.\
+If 2 graphs have a different size then, $V_1 !\rightarrow V_2$, meaning there cannot exist a bijection between the 2 graphs, which is required for the graphs to be isomorphic.
 This would prove true for all cases of graphs of different sizes, proving that by definition, graphs with different numbers of nodes cannot be isomorphic.
